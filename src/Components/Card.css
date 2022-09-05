@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@1,300&family=Noto+Sans:wght@700&family=Playfair+Display:ital@1&family=Roboto+Mono:ital,wght@1,300&family=Uchen&display=swap");
+.top {
+    background-color: rgb(248, 238, 238);
+    color: red;
+    padding: 10px 0;
+    width: 100%;
+}
+.top .img {
+    margin-left: 2.3%;
+    background-color: white;
+    padding: 7px 20px;
+    font-size: 22px;
+}
+.tx {
+    color: red;
+    font-family: "Uchen", serif;
+    text-align: center;
+}
+.card img {
+    width: 70px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+.Box {
+    width: 96%;
+    background-color: rgb(102, 126, 76);
+    margin-top: 3px;
+    padding: 3px 20px;
+    margin-left: 2%;
+    box-shadow: 5px 5px 2px slateblue;
+    display: flex;
+}
+.desc {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 25px;
+    padding: 0 8px;
+    /* background-color: blue; */
+}
+.product {
+    margin-left: 23px;
+    background-color: white;
+    padding: 7px 8%;
+    font-size: 22px;
+}
+.model {
+    margin-left: 2%;
+
+    background-color: white;
+    padding: 7px 5%;
+    font-size: 22px;
+}
+.cata {
+    color: rgb(127, 203, 228);
+    display: flex;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* background-color: red; */
+}
+.inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.inp input {
+    width: 40%;
+    height: 30px;
+}
+.qua {
+    margin-left: 2%;
+
+    background-color: white;
+    padding: 7px 5%;
+    font-size: 22px;
+}
+.unit {
+    margin-left: 2%;
+
+    background-color: white;
+    padding: 7px 1%;
+    font-size: 22px;
+}
+.total {
+    margin-left: 1%;
+
+    background-color: white;
+    padding: 7px 1%;
+    font-size: 22px;
+}
+.pri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    color: wheat;
+    padding-left: 10px;
+}
+.priee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding-left: 10px;
+    color: wheat;
+}
+.bt {
+    font-family: "Uchen", serif;
+    margin-left: 80px;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0px 5px;
+    position: absolute;
+    right: 3%;
+    margin-top: 35px;
+    z-index: 10;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    position: relative;
+}
+.all h2 {
+    color: white;
+    margin-right: 165px;
+    padding-top: 10px;
+}
+.all .bttt {
+    padding: 8px 15px;
+    background-color: rgb(80, 130, 188);
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 44%;
+    font-size: 21px;
+    cursor: pointer;
+}
+#btt {
+    padding: 8px 15px;
+    background-color: rgb(80, 177, 188);
+    color: white;
+    margin-top: 10px;
+    margin-right: 90%;
+    font-size: 21px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}

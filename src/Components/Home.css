@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(42, 106, 165);
+    margin-top: 42px;
+}
+.home {
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.box {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #90cdee;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;
+}
+
+.box img {
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #b4f8cd;
+    transition: all 0.3s ease-in-out;
+}
+/* .box img:hover {
+    transform: scale(1.03);
+} */
+.box h4 {
+    color: rgb(17, 172, 238);
+    font-size: 18px;
+    padding: 10px 0;
+}
+.box h5 {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.title {
+    color: rgb(113, 89, 106);
+    padding: 4px 5px;
+}
+.price {
+    color: rgb(236, 116, 116);
+}
+.price span {
+    color: rgb(140, 103, 53);
+}
+/* CSS */
+.button {
+    background-color: #b4f8cd;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 18px;
+    margin-left: -10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+        rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
